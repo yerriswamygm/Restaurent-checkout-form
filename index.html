@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="formBlock">
+        <article>
+            <form action="" id="menuForm">
+                <h1>Food Order</h1>
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+                <div class="menuSelector" onchange="handleChange()">
+                    <input type="radio" name="food" id="" value="veg">Veg
+                    <input type="radio" name="food" id="" value="non-veg">Non-Veg
+                </div>
+                <select name="" id="dropdown">
+                    <option>Select Food Type</option>
+                </select>
+                <div class="quantity">
+                    <input type="button" value="--" class="btnq" onclick="decrement()"
+                        style="background-color: orange;border:none;border-radius:5px">
+                    <span class="quan">1</span>
+                    <input type="button" value="+" class="btnq" onclick="increment()"
+                        style="background-color: orange;border:none;border-radius:5px">
+                </div>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+                <button class="btn">order</button>
+            </form>
+        </article>
+        <section id="displayBill">
+            <h1>Invoice</h1>
+            <div class="first">
+                <h2>Customer Name : <small class="cName"></small></h2>
+                <h2>Invoice# : <small class="invoice"></small></h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody"></tbody>
+            </table>
+        </section>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+[
+  {
+    "nonVeg": [
+      {
+        "price": "200",
+        "name": "Egg Mix Soup",
+        "description": ""
+      },
+      {
+        "price": "180",
+        "name": "Egg Drop Soup",
+        "description": ""
+      },
+      {
+        "price": "220",
+        "name": "Chicken Rice Soup",
+        "description": ""
+      },
+      {
+        "price": "150",
+        "name": "Chicken Noodle Soup",
+        "description": ""
+      },
+      {
+        "price": "200",
+        "name": "Wonton Soup",
+        "description": ""
+      },
+      {
+        "price": "179",
+        "name": "Yat Gaw Mein Quart",
+        "description": "Pork or chicken."
+      },
+      {
+        "price": "186",
+        "name": "Yat Gaw Mein Quart",
+        "description": "Beef or shrimp."
+      },
+      {
+        "price": "198",
+        "name": "Hot and Sour Soup",
+        "description": ""
+      },
+      {
+        "price": "160",
+        "name": "Chinese Vegetables Bean Soup",
+        "description": ""
+      },
+      {
+        "price": "188",
+        "name": "Seafood Soup Quart",
+        "description": ""
+      }
+    ],
+    "veg": [
+      {
+        "price": "60",
+        "name": "Vegetable Fried Rice",
+        "description": ""
+      },
+      {
+        "price": "65",
+        "name": "Plain Fried Rice",
+        "description": ""
+      },
+      {
+        "price": "150",
+        "name": "paneer fried rice",
+        "description": ""
+      },
+      {
+        "price": "175",
+        "name": "Mushroom Fried Rice",
+        "description": ""
+      },
+      {
+        "price": "60",
+        "name": "Lemon Rice Full",
+        "description": ""
+      },
+      {
+        "price": "30",
+        "name": "Dosa 99 type",
+        "description": ""
+      },
+      {
+        "price": "50",
+        "name": "Veg-roll with cheese",
+        "description": ""
+      },
+      {
+        "price": "95",
+        "name": "Paneer Roll with cheese",
+        "description": ""
+      },
+      {
+        "price": "80",
+        "name": "Paratha with butter",
+        "description": ""
+      },
+      {
+        "price": "99",
+        "name": "Paneer Paratha",
+        "description": ""
+      }
+    ]
+  }
+]
